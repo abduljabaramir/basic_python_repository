@@ -1,0 +1,1 @@
+print("hello guys this is the first example of python");

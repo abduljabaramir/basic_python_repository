@@ -181,4 +181,58 @@ print(_dictionary.keys())#this will print the key values of the dictionary
 print(_dictionary.values())#this will print the values of the dictionary
 
 
+#this is the example of dictionary
+_dictionary_example = {"name":"abduljabar","SecondName":"amiri","Email":"jabar.amiri34@gmail.com"}
+print(_dictionary_example['Email'])
 
+#boolean data types: there are two type of boolean true and false
+#use to determine the given statement 
+#none zero value of T is usef for true
+#zero or F value is used for false
+#it is represented by the class of bool
+print(type(True))
+print(type(False))
+
+
+
+#set is an unordered colloection of data types
+#it can be modify
+#it is created with the set() built-in function or {} braces
+#it contains different types of value separated with comma
+
+setOfName = set()
+setOfSecondName = {"amiri","ahadi","hemat"}
+setOfName.add("abdul jabar")
+setOfName.add("bilal")
+setOfName.add("abdul ahad")
+#print("set of name"+setOfName)#this will generate the error
+print("list of first names:",setOfName)
+print("this will print the second name:",setOfSecondName)
+
+
+
+
+
+
+
+#indentation example
+
+_input_name = input("enter the name of the student:")
+
+if(_input_name == "amiri"):
+    print("ok")
+else:
+    print("no thats")
+print("task completed")    
+
+
+
+#this is the exmaple of the elif decision
+if(_input_name == "amiri"):
+    print("Data Management Engineer")
+elif _input_name == "hemat":
+    print("University Teacher") 
+elif _input_name == "ahadi":
+    print("cyber security specailist")
+else:
+    print("not found the required name")           

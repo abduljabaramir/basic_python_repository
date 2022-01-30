@@ -128,3 +128,57 @@ fifth line
 sixth line
 '''
 print(another_string)
+#this is the example of string handling
+print(single_quotes[0:4]) #this will print the four first character of the single_qoutes string value
+print(single_quotes[3]) #this will print the fourth character of the single_qoutes string value
+print(single_quotes + double_qoutes) #this will print the concatenation the single_qoutes and double_qoutes string 
+print(single_quotes*3) #this will print the single_qoutes string value triple times
+
+
+
+
+#2:List
+#in python list is simillar to array in c but list store differen type of values
+#item in the list is separated with comma(,) and enclosed with [] 
+#(:) is used for sliceing of the list
+list_of_student_record = [1,"amiri","jabar.amiri34@gmail.com",25]
+print(list_of_student_record[2:]) #this will print record after the first two value
+print(list_of_student_record[3]) #this will print the vlaue in the 3 index
+print(list_of_student_record[0:3]) #this will print the vlaue between 0 and 3 index of the list
+print(list_of_student_record + list_of_student_record)#this will print the concatenation of both value
+print(list_of_student_record*2)#this will print the list twice times
+
+
+#3:tuple is a sequence type data types
+#tuple is similar to the list in many ways
+#tuple items is separated with comma and enclosed with () brackets
+#tuple is the read-only data structure as we can't modify the value of the size and value of the item
+
+tuple_Of_student_record = (2,"Hamza Amiri","Hamza@gmail.com",25)
+print(type(tuple_Of_student_record))#this will print the type of tuple
+print(tuple_Of_student_record[2])#this will print vlaue in the 2 index of the tuple
+print(tuple_Of_student_record[0:3])#this will print the value of indexes between 0 and 3
+print(tuple_Of_student_record[2:])#this will print the values after the 2 index
+print(tuple_Of_student_record + tuple_Of_student_record)#this will print the concatenation
+print(tuple_Of_student_record * 3)#this will print the tuple triple times
+
+#tuple_Of_student_record[2] = "Hamza33@gmail.com"     this will generate the error
+
+
+
+
+#3:dictionary is an unordered set of key-value pair of items
+#it is similar to the associative array or hash table where each key store a specific vlaue
+#value is primitive data types whereas value are an arbitrary python object
+#items in the dictionary is separated with the comma and enclosed with curley braces{}
+
+_dictionary = {1:"hemat",2:"amiri",3:"ahadi",4:24}
+print(_dictionary) #this will print the all items of the dictionary
+print(_dictionary[2])#this will print the ahadi
+print("the first name is:"+_dictionary[1])
+print("the second name is:"+ _dictionary[2])
+print(_dictionary.keys())#this will print the key values of the dictionary
+print(_dictionary.values())#this will print the values of the dictionary
+
+
+

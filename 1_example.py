@@ -110,3 +110,21 @@ numericType()
 #1:string type 2: list  3:tuple
 #1:string: is a sequence of character that are represented within the quotations
 #by using single ,double ,and triple quotations
+#in python + sign is used for concatenation and * sign is used for repitation
+single_quotes = 'this is the single quotes based string'
+print(single_quotes)
+double_qoutes = "this is double qoutes based string"
+print(double_qoutes)
+#triple qoutes is used for multi line string as follows
+triple_qoutes = '''this is the example of multiline
+string in python so super and so needed '''
+print(triple_qoutes)
+#another example of mulit line string 
+another_string = '''first line
+second line
+third line
+fourth line
+fifth line
+sixth line
+'''
+print(another_string)

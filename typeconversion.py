@@ -66,3 +66,23 @@ print("hi {} your {} years old.".format(name,age))
 
 #the above code is also done as follows
 print("hi {new_name} your {new_age} years old.".format(new_name = "amiri",new_age = 25))
+
+string_value = "jabar.amiri34@gmail.com"
+print(string_value[0])#printing:j
+print(string_value[0:4])#printing:jaba
+print(string_value[2:9])#printing:bar.ami
+print(string_value[0:11:2])#printing:jbraii
+print(string_value[1:])#printing:abar.amiri34@gmail.com
+print(string_value[0::2])#printing:jbraii4galcm
+print(string_value[:])#printing:jabar.amiri34@gmail.com
+print(string_value[::2])#printing:jbraii4galcm
+print(string_value[:9])#printing:jabar.ami
+#python start with back side by entering the negative index value as follows
+print(len(string_value))#printing:23
+print(string_value[-1])#printing:m
+print(string_value[-2])#printing:o
+print(string_value[-23:-1])#printing:jabar.amiri34@gmail.co
+print(string_value[-23:])#printing:jabar.amiri34@gmail.com
+print(string_value[::-1])#printing:moc.liam@43irima.rabaj
+
+

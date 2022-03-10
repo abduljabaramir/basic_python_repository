@@ -55,3 +55,9 @@ elif is_licenced:
 else:
     print("you are not of age")
 print("checked")
+
+
+#example of python ternary operation
+is_friend = True
+print_message = "ok your of his friend" if is_friend else "not allowed for friendship"
+print(print_message)

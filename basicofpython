@@ -1,0 +1,30 @@
+#identation in python
+#refers to the spaces in the beganing of a code line
+#it is very important becuase python use it to indicate a block of code
+
+print("example of identation")
+
+if 5>3:
+    print("five is greater than three")
+#this is will give you an output of five is greater than three because the print statement is indented to the right of the if statement. this means that it is part of the if statement and will only be executed if the condition is true.
+
+print("example of error in identation")
+if 5>3:
+#print("five is greater than three") print statement is not indented to the right of the if statement. this means that it is not part of the if statement and will be executed regardless of the condition. this will give you an error because python expects an indented block after the if statement.
+    print("the above line of code will give you an error because it is not indented to the right of the if statement. this means that it is not part of the if statement and will be executed regardless of the condition. this will give you an error because python expects an indented block after the if statement.")
+
+
+#let give you another example of identation error
+if 5>3:
+    print("five is greater than three")
+#print("this line of code will give you an error because it is indented too much. python expects an indented block after the if statement. this means that it is not part of the if statement and will be executed regardless of the condition. this will give you an error because python expects an indented block after the if statement.")
+
+#so in summary, identation is very important in python because it is used to indicate a block of code. if a line of code is not indented correctly, it will give you an error.
+# there should be proper identation in python because it is used to indicate a block of code. if a line of code is not indented correctly, it will give you an error.
+#too much identation will also give you an error because python expects an indented block after the if statement. this means that it is not part of the if statement and will be executed regardless of the condition. this will give you an error because python expects an indented block after the if statement.
+
+#the role of semicolon in python is to separate multiple statements on a single line. it is not required in python, but it can be used to write multiple statements on a single line. however, it is not recommended to use semicolons in python because it can make the code less readable.
+#for example  as below
+print("this is the first statement"); print("this is the second statement"); print("this is the third statement")
+# code without of the in one line leading to error as follows
+#print("this is the first statement") print("this is the second statement") print("this is the third statement")

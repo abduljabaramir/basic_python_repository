@@ -280,3 +280,22 @@ print("of all fruits", x, "is my favorite") #output is "of all fruits banana    
 txt = "I could eat bananas all day"
 x = txt.partition("bananas")
 print(x) #output is ("I could eat ", "bananas", " all day")
+
+
+
+#Testing with the follwing questions:
+passport = "AFG-P-2026-987654"
+
+
+print(passport[:3]) #output is "AFG" 3 is not included in the output
+print(passport[4:5]) #output is "P" 4 is included and 5 is not included in the output
+print(passport[6:10]) #output is "2026" 6 is included and 10 is not included in the output
+print(passport[11:]) #output is "987654" 11 is included and
+print(passport[-4:]) #output is "7654" -4 is included and the process starts from -4 to the end of the string
+print(passport[-6::-1]) #output is "456789" -6 is included and the process starts from -6 to the end of the string
+print(passport[::-1]) #output is "456789-6202-P-GFA" -1 is included and the process starts from -1 to the end of the string
+print(passport[:-6]) #output is "AFG-P-2026" -6 is not included and the process starts from 0 to -6
+#extract every second character from the passport number
+print(passport[::2]) #output is "AG-P0-9754"
+#what s the output of the following example
+print(passport[-6:-2]) #output is "9876" -6 is included and -2 is not included in the output

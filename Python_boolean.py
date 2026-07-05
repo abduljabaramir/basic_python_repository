@@ -131,3 +131,53 @@ if can_transfer:
     print("Transaction successfully!")
 else:
     print("Transaction Denied")
+
+
+
+#Scenario: of University Scholarship
+# A student receives a scholarship if:
+# GPA is 3.7 or higher
+# Attendance is 90% or higher
+# No diciplinary record
+
+#Questions:print a message depending on the result
+
+gpa = 3.85
+attendance = 92
+disciplinary_record = True
+
+eligible = (
+    gpa >= 3.7 and 
+    attendance >= 90 and
+    not disciplinary_record)
+
+if eligible:
+    print("The scholarhisp offered to student:",eligible)
+
+else:
+    print("Not eligible for the schoarship")
+
+
+#scenario: Airport immigration
+# A passenger is allowed to baord only if:
+# passport is valid
+#visa is valid
+#ticket is confirmed
+#no security alert
+passport = True
+visa = True
+ticket = True
+security_alert = False
+
+is_allowed_baording =  (
+    passport and
+    visa and 
+    ticket and 
+    not security_alert
+)
+
+if is_withdrawal_allowed:
+    print("the passenger is allowed for onboarding!",is_allowed_baording)
+
+else:
+    print("Not allow for boarding!")

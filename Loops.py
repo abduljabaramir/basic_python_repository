@@ -15,7 +15,7 @@ sequence_numbers = [1,2,3,4,5,6,7,8,9,10]
 n = 5
 for i in sequence_numbers:
     c = n*i 
-   # print(c)
+    print(c)
 #the following program will print the sum of the above list 
 
 listofvalue = [20,30,40,50,60]
@@ -45,7 +45,9 @@ for i in range(len(_dictionary_example)):
 print("the following is the example of inner for loop in python")
 for i in range(6):
     for j in range(i):
-        print("*",end ="")
+        print(" ")
+        print("*",end =" ")
+        
     print()     
 
 

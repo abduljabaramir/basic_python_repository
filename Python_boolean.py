@@ -98,3 +98,36 @@ if is_withdrawal_allowed:
     print("your remaining balance is: ", balance)
 else:
     print("Insufficient amount entered")
+
+
+
+
+#python boolean scenario:
+# A bank allows a customer to transfer money only if all of the
+#following conditions are met:
+#1. the acount is Active
+#2. the user amount does not exceed the acount balance
+#3. the transfer amount does not exceed the acount balance
+#4. The daily transfer limit has not been exceeded
+
+balance = 50000
+transfer_amount = 250000
+account_active = True
+corrective_pin = True
+daily_limit = 30000
+
+#solutions, first of all I will create a variable can transfer
+can_transfer = (
+    account_active and
+    corrective_pin  and
+    transfer_amount <= balance and
+    transfer_amount <= daily_limit
+    
+    )
+
+print("can transfer:", can_transfer)
+
+if can_transfer:
+    print("Transaction successfully!")
+else:
+    print("Transaction Denied")
